@@ -43,4 +43,4 @@ jobs:
               echo $(date -u +%T%P) >> loop.txt
               git add loop.txt
               git commit -m "Enternity-host : Loop $(date -u +%D-%T%P)"
-              git push -q https://@github.com/${GITHUB_REPOSITORY} HEAD:Enternity-host
+              git push -q https://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@github.com/${GITHUB_REPOSITORY} HEAD:Enternity-host
